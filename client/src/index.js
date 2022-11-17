@@ -7,10 +7,7 @@ import { Provider } from 'react-redux'; // para poder asignarle el store, porque
 import { store } from './STORE'
 import axios from 'axios';
 
-import dotenv from "dotenv";
-// dotenv.config();
-
-axios.defaults.baseURL = process.env.REACT_APP_API || "https://picountry-production.up.railway.app/";
+axios.defaults.baseURL = process.env.REACT_APP_API || "https://picountry-production.up.railway.app";
 
 
 ReactDOM.render(
