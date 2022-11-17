@@ -32,6 +32,6 @@ const { countryDataBase } = require('./CountryDB/countryDB')
 conn.sync({ force: true }).then(() => {
   server.listen(process.env.PORT, () => {
     countryDataBase()
-    console.log("%s listening at 3001"); // eslint-disable-line no-console
+    console.log("%s listening at 3001"+ process.env.PORT); // eslint-disable-line no-console
   });
 });
