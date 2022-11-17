@@ -1,0 +1,31 @@
+.paginado {
+    
+    /* background-color: aqua; */
+    width: 300px;
+    margin: auto;
+    position:relative;
+    /* text-align: justify; */
+}
+
+.Cartas {
+    display:inline-flex;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    backdrop-filter: blur(70px);
+    border: solid rgba(255, 0, 0, 0.712);
+    border-radius: 7px;
+}
+
+.Cartas:hover {
+    border: 1px solid green;
+    transition: 500ms;
+}
+
+.henryMaps{
+    background-color: rgb(243, 105, 6);
+    width: 300px;
+    border: 10px;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    color: rgba(255, 234, 0, 0.854);
+}

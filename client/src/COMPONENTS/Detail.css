@@ -1,0 +1,30 @@
+
+.datos {
+    display: inline-block;
+    background-color: rgb(255, 255, 255, .15);
+    backdrop-filter: blur(11px);
+    border-radius: 12px;
+    width:370px;
+    height:640px;
+    margin: 20px;
+    border: solid green;
+} 
+
+
+img {
+    width: 350px;
+}
+.nombre {
+    background-color: rgba(237, 134, 8, 0.568);
+    backdrop-filter: blur(11px);
+    border-radius: 7px;
+}
+
+.nombree {
+    background-color: rgba(34, 175, 58, 0.605);
+    backdrop-filter: blur(11px);
+    border-radius: 7px;
+    width: 300px;
+    margin-left: 30px;
+}
+

@@ -1,0 +1,21 @@
+.paginado {
+    display: inline;
+}
+
+.contenedor {
+    display: inline;
+}
+
+.btn {
+    height: 30px;
+    width: 30px; 
+    background-color: black;
+    border:solid rgba(255, 0, 0, 0.712);
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+    margin: 25px 15px 25px 10px;
+}
+.btn:hover {
+    border: 1px solid green;
+    transition: 500ms;
+}

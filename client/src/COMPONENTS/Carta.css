@@ -1,0 +1,22 @@
+.Carta {
+    width: 320px;
+    height: 400px;
+}
+
+.CartaName{
+    background-color: rgba(237, 111, 8, 0.916);
+    font-family: 'Monoton', cursive;
+    color: rgba(255, 234, 0, 0.854);;
+}
+
+.CartaName:hover {
+    border: 1px solid green;
+    transition: 500ms;
+}
+
+img {
+    height: 180px;
+    width: 290px;
+    margin: -15px;
+}
+

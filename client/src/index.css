@@ -1,0 +1,16 @@
+body {
+  background: url(https://static.vecteezy.com/system/resources/previews/006/659/963/large_2x/glowing-world-map-in-the-americas-glowing-grid-represents-latitude-longitude-image-tone-and-dark-blue-background-gradient-towards-the-dark-black-color-3d-rendering-free-photo.jpg);
+  background-size: 100% 100%;
+  /* background-attachment: fixed; */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
